@@ -1,0 +1,5 @@
+# 虚拟机器人设备服务端依赖（Ubuntu 虚拟机内安装）
+# 安装命令: pip install -r requirements.txt
+# 网络慢时可加国内镜像: -i https://pypi.tuna.tsinghua.edu.cn/simple
+fastapi
+uvicorn

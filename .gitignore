@@ -1,0 +1,19 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境（依赖用 requirements.txt 管理，环境不入库）
+.venv/
+venv/
+
+# 运行时生成的状态文件（服务重启会自动恢复，不入库）
+server/device_state.json
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.idea/
+.vscode/
